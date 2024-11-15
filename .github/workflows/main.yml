@@ -47,3 +47,4 @@ jobs:
 
       - name: Clean up
         run: az logout  # Optional, to log out after deployment
+
