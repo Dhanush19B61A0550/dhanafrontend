@@ -40,7 +40,7 @@ jobs:
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'dhanafrontend'  # Azure Web App name
+          app-name: 'dhanafront'  # Azure Web App name
           slot-name: 'production'
           package: './build'  # Ensure this path is correct
 
